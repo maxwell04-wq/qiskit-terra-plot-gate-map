@@ -272,6 +272,7 @@ HAS_PYLATEX = _LazyImportTester(
 HAS_QASM3_IMPORT = _LazyImportTester(
     "qiskit_qasm3_import", install="pip install qiskit_qasm3_import"
 )
+HAS_RUSTWORKX = _LazyImportTester("rustworkx", install="pip install rustworkx")
 HAS_SEABORN = _LazyImportTester("seaborn", install="pip install seaborn")
 HAS_SKLEARN = _LazyImportTester(
     {"sklearn.linear_model": ("Ridge", "Lasso")},
